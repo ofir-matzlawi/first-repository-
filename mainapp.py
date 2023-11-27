@@ -4,6 +4,7 @@ import requests
 from matplotlib import pyplot as plt
 
 
+
 ## one asset info Function
 def financial_asset_info(symbol, api_key):
     url = f"https://api.polygon.io/v2/aggs/ticker/{symbol}/prev?unadjusted=true&apiKey={api_key}"
